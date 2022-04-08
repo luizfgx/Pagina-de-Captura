@@ -1,0 +1,37 @@
+.row{
+    margin-left: 450px;
+    font-weight: bolder;
+    font-size: 160%;
+    font-family: sans-serif;
+}
+
+.col{
+    height: 460px;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col img{
+
+    margin-left: 600px;
+    width: 800px;
+    border-radius: 0.85em;
+}
+
+@media screen and(max-width: 800px){
+    .container{
+        width: 97%;
+    }
+    .row{
+        display: block;
+    }
+    .col{
+        width: 75%;
+    }
+
+    nav ul{
+        display: block;}
+}
